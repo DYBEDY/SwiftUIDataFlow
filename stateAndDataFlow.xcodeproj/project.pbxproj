@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		0646F28527CD1612007C6567 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F28427CD1612007C6567 /* StateAndDataFlowApp.swift */; };
-		0646F28727CD1612007C6567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F28627CD1612007C6567 /* ContentView.swift */; };
 		0646F28927CD1613007C6567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0646F28827CD1613007C6567 /* Assets.xcassets */; };
 		0646F28C27CD1613007C6567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0646F28B27CD1613007C6567 /* Preview Assets.xcassets */; };
 		0646F29327CD1E17007C6567 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F29227CD1E17007C6567 /* TimeCounter.swift */; };
 		0646F29527CD53D4007C6567 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F29427CD53D4007C6567 /* RegisterView.swift */; };
 		0646F29727CD5692007C6567 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F29627CD5692007C6567 /* UserManager.swift */; };
 		0646F29927CD5C29007C6567 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646F29827CD5C29007C6567 /* StarterView.swift */; };
+		06DB615C27DA8AC900C87766 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB615B27DA8AC900C87766 /* DataManager.swift */; };
+		06DB615E27DA938900C87766 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB615D27DA938900C87766 /* TimerView.swift */; };
+		06DB616027DA952A00C87766 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB615F27DA952A00C87766 /* ButtonView.swift */; };
+		06DB616227DA97EB00C87766 /* ButtonAppearenceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB616127DA97EB00C87766 /* ButtonAppearenceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0646F28127CD1612007C6567 /* stateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0646F28427CD1612007C6567 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
-		0646F28627CD1612007C6567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0646F28827CD1613007C6567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0646F28B27CD1613007C6567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0646F29227CD1E17007C6567 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		0646F29427CD53D4007C6567 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		0646F29627CD5692007C6567 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		0646F29827CD5C29007C6567 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		06DB615B27DA8AC900C87766 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		06DB615D27DA938900C87766 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		06DB615F27DA952A00C87766 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		06DB616127DA97EB00C87766 /* ButtonAppearenceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearenceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				0646F28427CD1612007C6567 /* StateAndDataFlowApp.swift */,
-				0646F28627CD1612007C6567 /* ContentView.swift */,
-				0646F29227CD1E17007C6567 /* TimeCounter.swift */,
-				0646F29427CD53D4007C6567 /* RegisterView.swift */,
-				0646F29627CD5692007C6567 /* UserManager.swift */,
 				0646F29827CD5C29007C6567 /* StarterView.swift */,
+				0646F29427CD53D4007C6567 /* RegisterView.swift */,
+				06DB615D27DA938900C87766 /* TimerView.swift */,
+				06DB615F27DA952A00C87766 /* ButtonView.swift */,
+				06DB616127DA97EB00C87766 /* ButtonAppearenceModifier.swift */,
+				0646F29227CD1E17007C6567 /* TimeCounter.swift */,
+				0646F29627CD5692007C6567 /* UserManager.swift */,
+				06DB615B27DA8AC900C87766 /* DataManager.swift */,
 				0646F28827CD1613007C6567 /* Assets.xcassets */,
 				0646F28A27CD1613007C6567 /* Preview Content */,
 			);
@@ -152,9 +161,12 @@
 				0646F29327CD1E17007C6567 /* TimeCounter.swift in Sources */,
 				0646F29527CD53D4007C6567 /* RegisterView.swift in Sources */,
 				0646F29927CD5C29007C6567 /* StarterView.swift in Sources */,
-				0646F28727CD1612007C6567 /* ContentView.swift in Sources */,
+				06DB615C27DA8AC900C87766 /* DataManager.swift in Sources */,
 				0646F29727CD5692007C6567 /* UserManager.swift in Sources */,
+				06DB615E27DA938900C87766 /* TimerView.swift in Sources */,
 				0646F28527CD1612007C6567 /* StateAndDataFlowApp.swift in Sources */,
+				06DB616227DA97EB00C87766 /* ButtonAppearenceModifier.swift in Sources */,
+				06DB616027DA952A00C87766 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
